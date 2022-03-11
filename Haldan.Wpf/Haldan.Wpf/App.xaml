@@ -1,0 +1,18 @@
+﻿<Application x:Class="Haldan.Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Haldan.Wpf.Views">
+    <!--StartupUri="Haldan.Wpf.Views.MainWindows.xaml-->
+    <Application.MainWindow>
+        <local:MainWindow Visibility="Visible" />
+    </Application.MainWindow>
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="~/../StyleResources/Templates.xaml" />
+                <ResourceDictionary Source="~/../StyleResources/Helpers.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
